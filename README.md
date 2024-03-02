@@ -1,6 +1,6 @@
 Welcome To Repository for an basic login page and a create account page 
 
-Changes u should make for the new account page to work page to work
+Changes u should make for the new account page to work
 
 Create a table like given 
  
