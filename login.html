@@ -1,0 +1,24 @@
+<html> 
+    <head>  
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <title>Login</title>
+    </head>
+        <div class="form-container">
+            <form method="post" action="login.jsp">
+                <label for="name" style="font-size: 27px">Username:</label><br>
+                <input type="text" id="name" name="name" style="font-size:22px" placeholder="Enter UserName" required><br>
+                <span id="uname-error" class="error-message"></span><br>
+                
+                <label for="pass" style="font-size:27px">Password:</label><br>
+                <input type="password" id="pass" name="pass" style="font-size: 22px" placeholder="Enter PassWord" required><br>
+                <span id="pws-error" class="error-message"></span><br>
+                
+                <div class="sub">
+                    <input type="submit" id="submit" value="Login"><br><br>
+                    <a href="create_acc.html">Create Account</a>
+                </div>
+            </form>
+        </div>
+</html>
+
