@@ -17,6 +17,7 @@ open new_account.jsp
 con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/(database name)","root","(your password)");              *type the name of your database and your password and remove the brackets
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 cahanges u should make for login page to work
+
 open login.jsp
 
 con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/(database name)","root","(your password)");         *type the name of your database and your password and remove the brackets
