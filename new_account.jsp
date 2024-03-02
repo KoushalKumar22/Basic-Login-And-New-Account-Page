@@ -19,7 +19,7 @@
             <br>
             <%
                 Class.forName("com.mysql.jdbc.Driver");
-                con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/koushal","root","271024");
+                con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/(database name)","root","(your password)");
                 ps=con.prepareStatement("insert into newacc(name,password,phone,age,email) value(?,?,?,?,?)");
                 ps.setString(1, name);
                 ps.setString(2, pass);
